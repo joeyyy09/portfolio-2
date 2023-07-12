@@ -21,7 +21,7 @@ export default function Skills(): JSX.Element {
               </h1>
             </div>
           </div>
-          <div className="col-span-12 md:col-span-5 lg:col-span-6 flex flex-col justify-center items-center my-10 sm:mt-0">
+          <div className="col-span-12 md:col-span-5 lg:col-span-6 ml-20 flex flex-col justify-center items-center my-10 sm:mt-0">
             <SkillsIcons />
           </div>
         </div>

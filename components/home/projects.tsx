@@ -47,7 +47,7 @@ export default function Projects({}: Props): JSX.Element {
               </div>
             </div>
             {/* FIXME Make thie cards of this page dyanmic */}
-            <div className="relative col-span-12 md:col-span-5 lg:col-span-6 flex flex-col">
+            <div className="relative col-span-12  md:col-span-5 lg:col-span-6 flex flex-col">
               <div className="w-64 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="Websites"

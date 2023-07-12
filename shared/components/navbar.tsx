@@ -58,12 +58,23 @@ const Navbar = (): JSX.Element => {
       ${isScreenScrolled && "shadow-2xl"}
       `}
     >
-      <nav className=" block md:flex justify-between items-center p-4 ">
-        <div className="flex justify-between float-right">
+      <nav className=" block md:flex justify-between items-center p-2">
+        <div className="flex justify-between ">
+          <div>
+            <Link href="/">
+              <img
+                src="/images/logo1.png"
+                alt="logo"
+                className={`${
+                  isScreenScrolled ? 'w-8 md:w-14 ease-in-out md:ml-16 float-left' : 'ml-4 md:ml-16 w-12 md:w-16'
+                } pl-30 my-2 transition-all transform hover:scale-75 cursor-pointer`}
+              />
+            </Link>
+          </div>
           <div className="flex md:hidden">
             <button
               type="button"
-              className="text-white focus:outline-none"
+              className="text-white mr-4 focus:outline-none"
               onClick={() => setShowMobileNav(!showMobileNav)}
             >
               <Menu size={28} />
