@@ -5,9 +5,11 @@ import TextCards from '../../shared/components/text-cards';
 import HeaderSmall from "../../shared/components/header-small";
 import Button from "../../shared/components/buttons";
 import ProjectCard from "../../shared/components/project-card";
-import { Project } from '../../shared/utils/types';
+import project from '@utils/projects';
+type Props = {};
 
-export default function Projects(): JSX.Element {
+
+export default function Projects({}: Props): JSX.Element {
   const router = useRouter();
   return (
     <>
@@ -18,8 +20,8 @@ export default function Projects(): JSX.Element {
             alt="Circle Vector"
             className="absolute -right-50p md:-right-96 bottom-16 md:-bottom-20 pointer-events-none animate-pulse"
           />
-          <div className="ml-4 sm:mx-12 md:mx-16 grid grid-cols-12 gap-4 h-auto place-items-center items-center">
-            <div className="col-span-12 md:col-span-7 lg:col-span-6 flex flex-col justify-center items-center">
+          <div className=" grid grid-cols-12 gap-6 h-auto place-items-center items-center">
+            <div className="col-span-8 md:col-span-7 lg:col-span-6 flex flex-col justify-center items-center">
               {/* Hero Header */}
               <div className="items-center w-3/4 relative">
                 <img
@@ -30,9 +32,8 @@ export default function Projects(): JSX.Element {
                 <HeaderSmall text="Let’s walk the talk!" />
                 {/* TODO Add dynamic taglines */}
 
-               
-                <h1 className="mb-3 text-4xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-1xl font-extrabold text-white leading-none ">
-                Projects I <span className="text-pink font-bold">built.</span>
+                <h1 className="hidden md:block mb-3 md:mt-0 text-4xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-1xl font-extrabold text-white leading-none ">
+                  Projects I <span className="text-pink font-bold">built.</span>
                 </h1>
                 <div className="sm:ml-52 xl:ml-96 transform rotate-90">
                   <Link href="#projects">
@@ -68,24 +69,41 @@ export default function Projects(): JSX.Element {
                   color="violet"
                 />
               </div>
+                <h1 className="md:hidden mt-36 md:mt-0 text-4xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-1xl font-extrabold text-white leading-none ">
+                  Projects I <span className="text-pink font-bold">built.</span>
+                </h1>
             </div>
           </div>
         </div>
-        <div className="relative h-auto sm:h-auto md:h-auto ml-4 sm:mx-12 md:mx-16" id="projects">
-          {/* <div className="grid md:grid-cols-2 gap-4 place-items-center">
-            {projectDetails.map((project: Project) => (
+
+        <div
+          className="relative h-auto sm:h-auto md:h-auto ml-4 sm:mx-12 md:mx-16"
+          id="projects"
+        >
+          <div className="grid md:grid-cols-2 gap-4 place-items-center">
+            {/* {projectDetails.map((project: Project) => (
               <ProjectCard
                 project={project}
                 key={project.slug}
                 filter={{ key: 'featured', value: true }}
               />
+            ))} */}
+            {project.map((project) => (
+              <ProjectCard
+                key={project.id}
+                title={project.title}
+                description1={project.description1}
+                description2={project.description2}
+                img={project.img}
+                url={project.url}
+              />
             ))}
-          </div> */}
+          </div>
           <div className="flex justify-center mt-10 lg:mt-4">
             <Button
               type="solid"
               text="Show me more! 🔥"
-              onClickHandler={() => router.push('/projects')}
+              onClickHandler={() => router.push("/projects")}
             />
           </div>
         </div>

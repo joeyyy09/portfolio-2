@@ -13,7 +13,6 @@ const Projects = (): JSX.Element => {
     <>
           <Navbar />
           <ProjectsPage />
-          <SocialBar />
           <Footer />
     </>
   );

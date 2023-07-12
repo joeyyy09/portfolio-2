@@ -17,7 +17,7 @@ const NavItem = ({ href, title }: Props): JSX.Element => {
         <li
           className={`
           px-5 py-2 pt-1 md:pt-4 md:px-4 md:text-center
-          ${router.asPath === href ? "border-b-2 md:border-none" : ""} 
+          ${router.asPath === href ? "border-b-1 md:border-none" : ""} 
           `}
         >
           <p className="transition duration-500 ease-in-out transform md:hover:-translate-y-2 text-white font-bold md:hover:text-violet">
@@ -54,28 +54,28 @@ const Navbar = (): JSX.Element => {
 
   return (
     <div
-      className={` mx-auto bg-blue w-full fixed z-30
+      className={` bg-blue w-full fixed z-30
       ${isScreenScrolled && "shadow-2xl"}
       `}
     >
-      <nav className="block md:flex justify-between items-center p-2 px-8">
-        <div className="flex justify-between">
+      <nav className=" block md:flex justify-between items-center p-4 ">
+        <div className="flex justify-between float-right">
           <div className="flex md:hidden">
             <button
               type="button"
               className="text-white focus:outline-none"
               onClick={() => setShowMobileNav(!showMobileNav)}
             >
-              <Menu size={18} />
+              <Menu size={28} />
             </button>
           </div>
         </div>
         <div
           className={
-            showMobileNav ? "block pt-3 transition-all" : "hidden md:block"
+            showMobileNav ? "block transition-all" : "hidden md:block"
           }
         >
-          <ul className="md:flex md:flex-row border-pink border-2 md:border-none">
+          <ul className="md:flex md:flex-row w-full pt-6 md:pt-0 ">
             {navlinks.map((item) => {
               return (
                 <NavItem title={item.title} href={item.href} key={item.href} />

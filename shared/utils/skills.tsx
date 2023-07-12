@@ -22,10 +22,6 @@ const SKILLS: Skill[] = [
     src: '/images/skills/ts.svg'
   },
   {
-    name: 'React Native',
-    src: '/images/skills/react-native.svg'
-  },
-  {
     name: 'ExpressJS',
     src: '/images/skills/angular.svg'
   },

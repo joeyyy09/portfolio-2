@@ -10,7 +10,6 @@ const Home = (): JSX.Element => {
     <>
 
           <Navbar />
-          <SocialBar />
           <HomePage />
           <Footer />
     </>

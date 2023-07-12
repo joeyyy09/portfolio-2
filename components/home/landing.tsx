@@ -25,8 +25,8 @@ export default function Landing(): JSX.Element {
         animate={{ scale: 1, opacity: 1, transitionDuration: "0.2s" }}
         exit={{ x: 0, opacity: 0 }}
       >
-        <div className="grid grid-cols-12 gap-4 h-84.5vh ml-4 sm:mx-12 md:mx-16">
-          <div className="col-span-12 md:col-span-7 lg:col-span-6 flex flex-col justify-center items-center">
+        <div className="grid grid-cols-12 gap-4 h-84.5vh ml-4 sm:mx-12 md:mx-12">
+          <div className="col-span-10 md:col-span-7 lg:col-span-6 flex flex-col justify-center items-center">
             {/* Hero Header */}
             <div className="items-center w-3/4 -mt-24 relative">
               <img

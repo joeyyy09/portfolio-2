@@ -36,7 +36,7 @@ module.exports = {
         "90vh": "90vh",
       },
       colors: {
-        blue: "#232946",
+        blue: "#0C0404",
         pink: "#EEBBC3",
         violet: "#B8C1EC",
         white: "#FFFFFE",
