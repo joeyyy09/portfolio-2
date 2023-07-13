@@ -66,7 +66,7 @@ const Navbar = (): JSX.Element => {
                 src="/images/logo1.png"
                 alt="logo"
                 className={`${
-                  isScreenScrolled ? 'w-8 md:w-14 ease-in-out md:ml-16 float-left' : 'ml-4 md:ml-16 w-12 md:w-16'
+                  isScreenScrolled ? 'w-8 md:w-14 ease-in-out ml-4 md:ml-16 float-left' : 'ml-4 md:ml-16 w-12 md:w-16'
                 } pl-30 my-2 transition-all transform hover:scale-75 cursor-pointer`}
               />
             </Link>

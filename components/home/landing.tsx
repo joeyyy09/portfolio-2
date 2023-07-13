@@ -29,33 +29,34 @@ export default function Landing(): JSX.Element {
         exit={{ x: 0, opacity: 0 }}
       >
         <div className="grid grid-cols-12 gap-4 h-84.5vh ml-4 sm:mx-12 md:mx-12">
-          <div className="col-span-full -mt-16 ml-16 md:col-span-7 lg:col-span-7 flex flex-col justify-center items-center">
+          <div className="col-span-full  md:ml-16 md:col-span-7 lg:col-span-7 flex flex-col justify-center items-center">
             {/* Hero Header */}
-            <div className="items-center w-3/4  md:-ml-32 relative">
+            <div className="items-center  relative">
               <img
                 src="/images/vectors/triangle.svg"
                 alt="Triangle 3d Vector"
                 className="hidden md:block absolute -right-8 -top-16 w-2/3 md:w-24 animate-spin"
               />
-              <h1 className="text-xl font-light text-violet text-justify">
+              <h1 className="text-xl font-light ml-4 text-violet text-justify">
                 Hey there!
               </h1>
 
-              <h1 className="text-2xl gradient-text sm:text-2xl xl:text-8xl font-extrabold text-white leading-none mb-3">
+              <h1 className="text-2xl gradient-text ml-4 sm:text-2xl xl:text-8xl font-extrabold text-white leading-none mb-3">
                 Harshith Mente here
               </h1>
-              <h5 className="text-7xl font-light text-violet text-justify">
+              <h5 className="text-7xl ml-4 font-light text-violet text-justify">
                 Full Stack Developer and an UI/UX Designer
               </h5>
+         
               <div className="align-middle justify-center grid sm:grid-cols-2 md:grid-cols-none xl:grid-cols-2 gap-4 mt-12">
-                <div className="sm:col-span-1 xl:col-span-1">
+                <div className="sm:col-span-1 md:ml-4 ">
                   <Button
                     type="solid"
                     text="Know More"
                     onClickHandler={() => router.push("#skills")}
                   />
                 </div>
-                <div className="sm:col-span-1 xl:col-span-1">
+                <div className="sm:col-span-1 md:-ml-20">
                   <Button
                     type="outlined"
                     text="Download Resume"

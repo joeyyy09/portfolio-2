@@ -1,15 +1,15 @@
 const navlinks = [
   {
-    title: 'Home',
-    href: '/'
+    title: "Home",
+    href: "/",
   },
   {
-    title: 'Explore',
-    href: '/#skills'
+    title: "Explore",
+    href: "/#skills",
   },
   {
-    title: 'Projects',
-    href: '/projects'
+    title: "Skills & Projects",
+    href: "/projects",
   },
 ];
 

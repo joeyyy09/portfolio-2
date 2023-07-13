@@ -1,10 +1,10 @@
-import SKILLS from '../../shared/utils/skills';
-import { Skill } from '../../shared/utils/types';
+import Skillsall from "../../shared/utils/skillsall";
+import { Skill } from "../../shared/utils/types";
 
 export default function SkillsIcons(): JSX.Element {
   return (
     <div className="flex items-center justify-center lg:mt-16 flex-wrap w-5/6 md:w-full xl:w-5/6">
-      {SKILLS.map(({ src, name }: Skill) => {
+      {Skillsall.map(({ src, name }: Skill) => {
         return (
           <img
             src={src}

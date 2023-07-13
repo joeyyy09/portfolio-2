@@ -1,6 +1,14 @@
-import { Skill } from './types';
+import { Skill } from "./types";
 
-const SKILLS: Skill[] = [
+const Skillsall: Skill[] = [
+  {
+    name: "HTML",
+    src: "/images/skills/html.svg",
+  },
+  {
+    name: "CSS",
+    src: "/images/skills/css.svg",
+  },
   {
     name: "MongoDB",
     src: "/images/skills/mongodb.svg",
@@ -15,6 +23,15 @@ const SKILLS: Skill[] = [
     src: "/images/skills/js.svg",
   },
   {
+    name: "NodeJS",
+    src: "/images/skills/node.svg",
+  },
+
+  {
+    name: "Svelte",
+    src: "/images/skills/svelte.svg",
+  },
+  {
     name: "AngularJS",
     src: "/images/skills/ts.svg",
   },
@@ -25,6 +42,14 @@ const SKILLS: Skill[] = [
   {
     name: "MongoDB",
     src: "/images/skills/express.svg",
+  },
+  {
+    name: "Firebase",
+    src: "/images/skills/firebase.svg",
+  },
+  {
+    name: "My SQL",
+    src: "/images/skills/mysql-icon.svg",
   },
   {
     name: "Figma",
@@ -39,6 +64,10 @@ const SKILLS: Skill[] = [
     src: "/images/skills/git.svg",
   },
   {
+    name: "Github",
+    src: "/images/skills/github.svg",
+  },
+  {
     name: "Bootstrap",
     src: "/images/skills/bootstrap.svg",
   },
@@ -51,9 +80,13 @@ const SKILLS: Skill[] = [
     src: "/images/skills/dart.svg",
   },
   {
-    name: "NodeJS",
-    src: "/images/skills/node.svg",
+    name:"Photoshop",
+    src:"/images/skills/photoshop.svg"
   },
+    {
+    name:"Canva",
+    src:"/images/skills/canva-icon.svg"
+  }
 ];
 
-export default SKILLS;
+export default Skillsall;

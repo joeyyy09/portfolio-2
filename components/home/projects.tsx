@@ -21,15 +21,18 @@ export default function Projects({}: Props): JSX.Element {
             className="absolute -right-50p md:-right-96 bottom-16 md:-bottom-20 pointer-events-none animate-pulse"
           />
           <div className=" grid grid-cols-12 gap-6 h-auto place-items-center items-center">
-            <div className="col-span-8 md:col-span-7 lg:col-span-6 flex flex-col justify-center items-center">
+            <div className="col-span-full md:col-span-7 lg:col-span-6 flex flex-col justify-center items-center">
               {/* Hero Header */}
-              <div className="items-center w-3/4 relative">
+              <div className="items-center md:ml-16  relative">
                 <img
                   src="/images/vectors/boxes.svg"
                   alt="Box Vector"
                   className="block absolute right-0 top-0 w-20 md:w-16 lg:w-52 opacity-60"
                 />
+                <div className='md:-ml-0 -ml-24'>
+
                 <HeaderSmall text="Let’s walk the talk!" />
+                </div>
                 {/* TODO Add dynamic taglines */}
 
                 <h1 className="hidden md:block mb-3 md:mt-0 text-4xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-1xl font-extrabold text-white leading-none ">
@@ -69,7 +72,7 @@ export default function Projects({}: Props): JSX.Element {
                   color="violet"
                 />
               </div>
-                <h1 className="md:hidden mt-36 md:mt-0 text-4xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-1xl font-extrabold text-white leading-none ">
+                <h1 className="md:hidden -ml-4 mt-36 md:mt-0 text-4xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-1xl font-extrabold text-white leading-none ">
                   Projects I <span className="text-pink font-bold">built.</span>
                 </h1>
             </div>
@@ -102,7 +105,7 @@ export default function Projects({}: Props): JSX.Element {
           <div className="flex justify-center mt-10 lg:mt-4">
             <Button
               type="solid"
-              text="Show me more! 🔥"
+              text="All Skills & Projects"
               onClickHandler={() => router.push("/projects")}
             />
           </div>
