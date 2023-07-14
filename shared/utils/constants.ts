@@ -13,6 +13,33 @@ const navlinks = [
   },
 ];
 
+const socialMedia = [
+  {
+    link: "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=menteharshith@gmail.com",
+    image_file: "/images/skills/mail.svg",
+    alt_text: "Mail",
+    key: "1",
+  },
+  {
+    link: "https://www.instagram.com/harshith.mente/",
+    image_file: "/images/skills/instagram.svg",
+    alt_text: "Instagram",
+    key: "3",
+  },
+  {
+    link: "https://www.linkedin.com/in/harshith-mente-001492224/?originalSubdomain=in",
+    image_file: "/images/skills/linkedin.svg",
+    alt_text: "LinkedIn",
+    key: "2",
+  },
+  {
+    link: "https://github.com/joeyyy09",
+    image_file: "/images/skills/github.svg",
+    alt_text: "GitHub",
+    key: "4",
+  },
+];
+
 const technologies = [
   {
     src: '/images/skills/mongodb.svg',
@@ -88,4 +115,4 @@ const technologies = [
   }
 ];
 
-export { navlinks, technologies };
+export { navlinks, technologies, socialMedia };

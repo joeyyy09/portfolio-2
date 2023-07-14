@@ -87,7 +87,7 @@ const Navbar = (): JSX.Element => {
             showMobileNav ? "block transition-all" : "hidden md:block"
           }
         >
-          <ul className="md:flex md:flex-row w-full pt-6 md:pt-0 ">
+          <ul className="md:flex md:flex-row w-full p-6 md:pt-0 ">
             {navlinks.map((item) => {
               return (
                 <NavItem title={item.title} href={item.href} key={item.href} />

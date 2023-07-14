@@ -29,9 +29,8 @@ export default function Projects({}: Props): JSX.Element {
                   alt="Box Vector"
                   className="block absolute right-0 top-0 w-20 md:w-16 lg:w-52 opacity-60"
                 />
-                <div className='md:-ml-0 -ml-24'>
-
-                <HeaderSmall text="Let’s walk the talk!" />
+                <div className="md:-ml-0 -ml-24">
+                  <HeaderSmall text="Let’s walk the talk!" />
                 </div>
                 {/* TODO Add dynamic taglines */}
 
@@ -50,7 +49,7 @@ export default function Projects({}: Props): JSX.Element {
               </div>
             </div>
             {/* FIXME Make thie cards of this page dyanmic */}
-            <div className="relative col-span-12  md:col-span-5 lg:col-span-6 flex flex-col">
+            <div className="relative col-span-12 md:mr-32 md:col-span-5 lg:col-span-6 flex flex-col">
               <div className="w-64 text-white h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="Websites"
@@ -72,9 +71,9 @@ export default function Projects({}: Props): JSX.Element {
                   color="white"
                 />
               </div>
-                <h1 className="md:hidden -ml-4 mt-36 md:mt-0 text-4xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-1xl font-extrabold text-white leading-none ">
-                  Projects I <span className="text-pink font-bold">built.</span>
-                </h1>
+              <h1 className="md:hidden -ml-4 mt-36 md:mt-0 text-4xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-1xl font-extrabold text-white leading-none ">
+                Projects I <span className="text-pink font-bold">built.</span>
+              </h1>
             </div>
           </div>
         </div>

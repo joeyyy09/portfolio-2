@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps, router }: AppProps): JSX.Element {
         <Loader />
       ) : (
         <AnimatePresence>
-          <div className="page-transition-wrapper overflow-x-hidden min-h-screen min-w-fit">
+          <div className="page-transition-wrapper overflow-x-none min-h-screen min-w-fit">
             
               {/* <CustomCursor /> */}
               <Component {...pageProps} key={router.pathname} />

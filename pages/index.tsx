@@ -8,10 +8,10 @@ const HomePage = dynamic(() => import('../components/home/index'), {
 const Home = (): JSX.Element => {
   return (
     <>
-
-          <Navbar />
-          <HomePage />
-          <Footer />
+      <Navbar />
+      <HomePage />
+      <SocialBar />
+      <Footer />
     </>
   );
 };
