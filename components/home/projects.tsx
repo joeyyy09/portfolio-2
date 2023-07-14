@@ -20,7 +20,7 @@ export default function Projects({}: Props): JSX.Element {
             alt="Circle Vector"
             className="absolute -right-50p md:-right-96 bottom-16 md:-bottom-20 pointer-events-none animate-pulse"
           />
-          <div className=" grid grid-cols-12 gap-6 h-auto place-items-center items-center">
+          <div className=" grid grid-cols-12 gap-6 h-auto place-items-center items-center ml-16">
             <div className="col-span-12 md:col-span-7 lg:col-span-6 flex flex-col justify-center items-center">
               {/* Hero Header */}
               <div className="items-center px-12  relative">
@@ -49,7 +49,7 @@ export default function Projects({}: Props): JSX.Element {
               </div>
             </div>
             {/* FIXME Make thie cards of this page dyanmic */}
-            <div className="relative col-span-12 md:mr-32 md:col-span-5 lg:col-span-6 flex flex-col">
+            <div className="relative  col-span-12 md:mr-32 md:col-span-5 lg:col-span-6 flex flex-col">
               <div className="w-64 text-white h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="Websites"
@@ -71,7 +71,7 @@ export default function Projects({}: Props): JSX.Element {
                   color="black"
                 />
               </div>
-              <h1 className="md:hidden -ml-4 mt-36 md:mt-0 text-4xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-1xl font-extrabold text-white leading-none ">
+              <h1 className="md:hidden -ml-16 mt-36 md:mt-0 text-4xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-1xl font-extrabold text-white leading-none ">
                 Projects I <span className="text-pink font-bold">built.</span>
               </h1>
             </div>
