@@ -54,7 +54,7 @@ export default function Projects({}: Props): JSX.Element {
                 <TextCards
                   heading="Websites"
                   text=" Adding certain special hidden recipes and making his websites look enticing."
-                  color="white"
+                  color="black"
                 />
               </div>
               <div className="w-64 h-auto my-4 sm:ml-40 sm:-my-6 lg:ml-60 lg:-my-10 shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110 z-auto">
@@ -68,7 +68,7 @@ export default function Projects({}: Props): JSX.Element {
                 <TextCards
                   heading="UI/UX"
                   text="Using my design abilities to provide users an awesome interface and experience"
-                  color="white"
+                  color="black"
                 />
               </div>
               <h1 className="md:hidden -ml-4 mt-36 md:mt-0 text-4xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-1xl font-extrabold text-white leading-none ">
