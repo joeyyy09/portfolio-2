@@ -30,7 +30,7 @@ export default function Landing(): JSX.Element {
         exit={{ x: 0, opacity: 0 }}
       >
         <div className="grid grid-cols-12 gap-4 h-84.5vh ml-4 sm:mx-12 md:mx-12">
-          <div className="col-span-full  md:ml-16 md:col-span-7 lg:col-span-7 flex flex-col justify-center items-center">
+          <div className="col-span-12  md:ml-16 md:col-span-7 lg:col-span-7 flex flex-col justify-center items-center">
             {/* Hero Header */}
             <div className="items-center w-full">
               <img
@@ -56,14 +56,14 @@ export default function Landing(): JSX.Element {
               </h5>
 
               <div className="align-middle justify-center grid sm:grid-cols-2 md:grid-cols-none xl:grid-cols-2 gap-4 mt-12">
-                <div className="sm:col-span-1 md:ml-4 ">
+                <div className="sm:col-span-1 lg:ml-4 ">
                   <Button
                     type="solid"
                     text="Know More"
                     onClickHandler={() => router.push("#skills")}
                   />
                 </div>
-                <div className="sm:col-span-1 md:-ml-20">
+                {/* <div className="sm:col-span-1 ">
                   <Button
                     type="outlined"
                     text="Download Resume"
@@ -71,7 +71,7 @@ export default function Landing(): JSX.Element {
                     no-return-assign
                     onClickHandler={() => ""}
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

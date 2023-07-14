@@ -21,9 +21,9 @@ export default function Projects({}: Props): JSX.Element {
             className="absolute -right-50p md:-right-96 bottom-16 md:-bottom-20 pointer-events-none animate-pulse"
           />
           <div className=" grid grid-cols-12 gap-6 h-auto place-items-center items-center">
-            <div className="col-span-full md:col-span-7 lg:col-span-6 flex flex-col justify-center items-center">
+            <div className="col-span-12 md:col-span-7 lg:col-span-6 flex flex-col justify-center items-center">
               {/* Hero Header */}
-              <div className="items-center md:ml-16  relative">
+              <div className="items-center px-12  relative">
                 <img
                   src="/images/vectors/boxes.svg"
                   alt="Box Vector"
