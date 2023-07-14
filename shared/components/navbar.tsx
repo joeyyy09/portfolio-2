@@ -26,6 +26,7 @@ const NavItem = ({ href, title }: Props): JSX.Element => {
           <img
             src="/images/vectors/nav_active.svg"
             alt="nav-active"
+
             className={`
             hidden md:block md:opacity-0
             ${router.asPath === href && "md:opacity-100 md:w-100"}

@@ -25,7 +25,11 @@ function MyApp({ Component, pageProps, router }: AppProps): JSX.Element {
       <Head>
         <title>Harshith Mente</title>
         <meta name="title" content="Harshith Mente" />
-   
+        <link
+          rel="icon"
+          type="image/png"
+          href="images/logo1.png"
+        ></link>
       </Head>
       {loading ? (
         <Loader />

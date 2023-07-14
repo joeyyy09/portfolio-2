@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        poppins: ["Raleway", "sans-serif"],
       },
       transitionDuration: {
         0: "0ms",
@@ -38,7 +38,7 @@ module.exports = {
       },
       colors: {
         blue: "#0C0404",
-        pink: "#EEBBC3",
+        pink: "#F67700",
         violet: "#B8C1EC",
         white: "#FFFFFE",
       },

@@ -15,7 +15,7 @@ export default function Button({ text, type, onClickHandler = () => {} }: Props)
                     hover:shadow-light-xl hover:scale-90 ease-in-out 
                     ${
                       type === "solid"
-                        ? " gradient-text text-blue border-pink hover:outline-none hover:bg-transparent hover:text-pink hover:border-pink focus:outline-none"
+                        ? " text-white border-pink hover:outline-none hover:bg-transparent hover:text-pink hover:border-pink focus:outline-none"
                         : " border-pink text-blue hover:outline-none bg-pink focus:outline-none"
                     }
                    `}

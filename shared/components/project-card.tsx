@@ -27,7 +27,9 @@ const ProjectCard = (props: {
         className="my-4 mx-8 lg:mx-16 rounded-2xl
             transition-all duration-300 transform hover:opacity-80 hover:shadow-violet-5xl"
       >
+        <a href={props.url}>
           <Image src={props.img} alt="" className="rounded-2xl" />
+        </a>
       </div>
     </>
   );
