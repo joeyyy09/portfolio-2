@@ -31,7 +31,7 @@ export default function SocialBar(): JSX.Element {
             />
           );
         })}
-        <div className="h-20 md:h-32 mt-2 w-1/12 bg-violet" />
+        <div className="h-20 md:h-32 mt-2 w-1/12 bg-white" />
       </div>
     </div>
   );
