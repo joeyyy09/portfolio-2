@@ -31,5 +31,13 @@ const project = [
     img: require("../../public/images/expense-tracker.png"),
     url: "https://github.com/joeyyy09/expense-tracker",
   },
+  {
+    id: 4,
+    title: "Portfolio Website ",
+    description1: "",
+    description2: "",
+    img: require("../../public/images/portfolio.png"),
+    url: "https://github.com/joeyyy09/portfolio-2",
+  },
 ];
 export default project;
