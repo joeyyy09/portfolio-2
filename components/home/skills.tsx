@@ -7,7 +7,7 @@ export default function Skills(): JSX.Element {
     <>
       {/* FIXME Make this whole page dyanmic */}
 
-      <div className="relative h-auto py-10 lg:py-20" id="skills">
+      <div className="relative h-auto py-10 lg:py-20 p-2 md:p-0" id="skills">
         <div className="ml-8 sm:mx-12 md:mx-16 grid grid-cols-12 gap-4 h-auto place-items-center items-center">
           <div className="col-span-full md:col-span-7 lg:col-span-6 flex flex-col justify-center items-center">
             {/* Hero Header */}
