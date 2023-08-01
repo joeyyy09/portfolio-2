@@ -61,7 +61,7 @@ export default function Landing(): JSX.Element {
                       onClickHandler={() => router.push("#skills")}
                     />
                   </div>
-                  <div className="sm:col-span-1 xl:-ml-16 3xl:-ml-60">
+                  <div className="sm:col-span-1 xl:-ml-8  3xl:-ml-">
                     <a href="https://drive.google.com/file/d/1gs0JrXAP_jBVYdh7bN3iSaDGtoAFhSAP/view?usp=drive_link">
                       <Button
                         type="outlined"

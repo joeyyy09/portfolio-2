@@ -10,7 +10,7 @@ const ProjectsPage = (): JSX.Element => {
         <div className="overflow-x-hidden">
           <div className="pt-10 sm:mx-12 md:mx-16">
             <div className="mb-4">
-              <h1 className=" md:block ml-4 md:mt-6 text-4xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-1xl font-extrabold text-white leading-none ">
+              <h1 className=" md:block -mt-6 md:-mt-0 ml-4 md:mt-6 text-4xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-1xl font-extrabold text-white leading-none ">
                 Skills & <span className="text-pink font-bold">Projects</span>
               </h1>
               <h5 className="text-7xl md:text-xl p-4 font-light text-white md:w-2/3">
