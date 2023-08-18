@@ -49,29 +49,23 @@ export default function Landing(): JSX.Element {
                     }}
                   />
                 </h1>
-                <h5 className="text-7xl ml-4 font-light text-white text-justify">
+                <h5 className="text-7xl ml-6 mr-4 font-light text-white text-justify">
                   Full Stack Developer and an UI/UX Designer
                 </h5>
 
-                <div className="align-middle justify-center grid sm:grid-cols-2 md:grid-cols-none xl:grid-cols-2 gap-4 mt-12">
-                  <div className="sm:col-span-1 xl:ml-4 ">
+                <div className="flex justify-center lg:justify-start items-center flex-col lg:flex-row md:gap-6 lg:gap-8 gap-4 mt-12">
+                  <Button
+                    type="solid"
+                    text="Know More"
+                    onClickHandler={() => router.push("#skills")}
+                  />
+                  <a href="https://drive.google.com/file/d/1gs0JrXAP_jBVYdh7bN3iSaDGtoAFhSAP/view?usp=drive_link">
                     <Button
-                      type="solid"
-                      text="Know More"
-                      onClickHandler={() => router.push("#skills")}
+                      type="outlined"
+                      text="Download Resume"
+                      onClickHandler={() => {}} // Keep the onClickHandler empty or remove it
                     />
-                  </div>
-                  <div className="sm:col-span-1 xl:-ml-8  3xl:-ml-">
-                    <a href="https://drive.google.com/file/d/1gs0JrXAP_jBVYdh7bN3iSaDGtoAFhSAP/view?usp=drive_link">
-                      <Button
-                        type="outlined"
-                        text="Download Resume"
-                        eslint-disable-next-line
-                        no-return-assign
-                        onClickHandler={() => ""}
-                      />
-                    </a>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>

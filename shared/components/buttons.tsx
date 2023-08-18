@@ -10,7 +10,7 @@ export default function Button({ text, type, onClickHandler = () => {} }: Props)
         type="button"
         onClick={onClickHandler}
         className={`font-regular
-                    px-6 sm:px-4 xl:px-6 py-4 w-64 sm:w-52 md:w-52 2xl:w-60 text-7xl h-25 transition-all
+                    px-6 sm:px-4 xl:px-6 py-4 w-48 sm:w-52 md:w-52 2xl:w-60 text-7xl h-25 transition-all
                     rounded overflow-hidden border-2 
                     hover:shadow-light-xl hover:scale-90 ease-in-out 
                     ${
