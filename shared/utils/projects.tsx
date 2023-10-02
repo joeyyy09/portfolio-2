@@ -39,5 +39,31 @@ const project = [
     img: require("../../public/images/portfolio.png"),
     url: "https://github.com/joeyyy09/portfolio-2",
   },
+  {
+    id: 5,
+    title: "Kanban Board",
+    description1:
+      "Efficiently manage your tasks with this stylish Kanban board web application built using the MERN stack (MongoDB, Express.js, React, Node.js).",
+    description2:
+      "This application enables users to seamlessly organize tasks by adding, deleting, editing, and effortlessly dragging tasks between columns: To Do, In Progress, and Completed.",
+    img: require("../../public/images/kanban-board.png"),
+    url: "https://github.com/joeyyy09/kanban-board",
+  },
+  {
+    id: 6,
+    title: "Farmiko",
+    description1: "",
+    description2: "",
+    img: require("../../public/images/farmiko.png"),
+    url: "https://github.com/joeyyy09/farmico-landing-page",
+  },
+  {
+    id: 7,
+    title: "RSS Aggregator",
+    description1: "",
+    description2: "",
+    img: require("../../public/images/rss-agg.png"),
+    url: "https://github.com/joeyyy09/rss-aggregator",
+  },
 ];
 export default project;
