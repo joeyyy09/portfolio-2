@@ -59,7 +59,7 @@ export default function Landing(): JSX.Element {
                     text="Know More"
                     onClickHandler={() => router.push("#skills")}
                   />
-                  <a href="https://drive.google.com/file/d/1upWCacHHW6fW3cLjqXjDnG4koakcDb1D/view?usp=sharing">
+                  <a href="https://drive.google.com/file/d/1Tmp45BF9EjJ78jh4jOWUWhcgaeUYvoPl/view?usp=sharing">
                     <Button
                       type="outlined"
                       text="Download Resume"
