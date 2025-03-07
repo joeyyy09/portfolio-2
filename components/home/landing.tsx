@@ -50,7 +50,7 @@ export default function Landing(): JSX.Element {
                   />
                 </h1>
                 <h5 className="text-7xl ml-6 mr-4 font-light text-white text-justify">
-                  Full Stack Developer and an UI/UX Designer
+                  Software Engineer and an Open Source Contributor
                 </h5>
 
                 <div className="flex justify-center lg:justify-start items-center flex-col lg:flex-row md:gap-6 lg:gap-8 gap-4 mt-12">
